@@ -1,0 +1,154 @@
+git --version
+git config --global user.name "fuxingwang"
+git config --global user.email "328500920@qq.com"
+git init
+git status
+git add main.py
+git status
+git commit
+git commit -m "test add commmit git"
+git status
+git diff main.py
+git diff main.py
+git status
+git commit -m 'time 0119 1445'
+git add main.py
+git commit -m '1445'
+git status
+git log
+git log --pretty=oneline
+git reset --hard HEAD
+git log --pretty=oneline
+git reset --hard HEAD^
+git log --pretty=oneline
+git reset --hard 5869dd5790c636abddc85ee38c4cf1d66349daf8
+git log
+git log --pretty=oneline
+git reflog
+git status
+git add lession_python.py
+git commit -m '提交python学习文件'
+git status
+git status
+git checkout -- file
+git checkout -- lession_python.py
+git status
+git add lession_python.py
+git status
+git commit -m 'check out '
+git log
+git checkout -- main.py
+git checkout -- lession_python.py
+git status
+git status
+git add redis-4.0.6
+git commit -m '添加redis-4.0.6配置文件'
+git status
+git log
+git reset --hard 8a6bd5d2b1b9920947b557f249b2da38a8e74bd6
+git reset --hard e2097c90
+git log
+git remote add origin git@github.com:328500920/my-redis-4.0.6.git
+git push -u origin master
+git push  origin master
+git remote -v
+git remote -v
+git remote add origin https://github.com/328500920/myredis.git
+git remote
+git remote -v
+git remote add origin_github https://github.com/328500920/myredis.git
+git remote
+git push origin_github master
+git status
+git commit -m '删除测试文件'
+git status
+git checkout *
+git checkout -- *
+git checkout -- main.py
+git checkout -- lession_python.py
+git rm *.py
+git commit -m '删除测试文件'
+git status
+git remote orgin_github master
+git push orgin_github master
+git remote -v
+git push origin_github master
+git branch
+git remote show origin
+git remote show origin_github
+git remote -v
+git remote origin
+git branch -a
+git remote
+git remote remove origin
+git remote -v
+git remote -v
+git glone https://github.com/328500920/mongo.git
+git clone https://github.com/328500920/mongo.git
+git remote -v
+git remote
+git branch
+git --version
+git --help
+git status
+git show
+git shouw
+git show
+git status
+git shouw
+git status
+git add 'study python'
+git commit -m '添加study python学习目录'
+git commit
+git commit
+git commit -m 'add study python readme'
+git status
+git add 'study python'
+git status
+git commit
+git status
+git commit -m 'add readme'
+git status
+git diff 'study python/readme.txt'
+git diff readme.txt
+git diff readme.txt
+git commit -m 'add redis 3.0'
+git status
+git add readme.txt
+git commit -m 'add redis 3.0'
+git status
+git diff readme.txt
+git log
+git log -pretty=oneline
+git log --pretty=oneline
+git reset -hard HEAD^
+git reset --hard HEAD^
+git log --pretty=oneline
+git reset --hard cd1a14d8a7a4b5984cd92ec91e32990d14df20b8
+git log --pretty=onelin
+git reset --hard 1bbe909e1118d3832850e65b1feeeec50fe6bc28
+git log --pretty=oneline
+git reflog
+git push origin master
+git --help
+git remote -v
+git remote add origin_study_python  https://github.com/328500920/study-python.git
+git remote -v
+git push -u origin_study_python master
+git push -u origin_study_python master
+git remote add origin_study_python https://github.com/328500920/study-python.git
+git remote del origin_study_python
+git remote remove origin_study_python
+git remote -v
+git remote add origin_study_python https://github.com/328500920/study-python.git
+git push -u origin_study_python master
+git status
+git add 'my work'
+git commit -m 'add my work'
+git status
+git push -u origin_study_python master
+git add *.txt
+git status
+git add 'my work'
+git commit -m 'add work plan'
+git push origin_study_python master
